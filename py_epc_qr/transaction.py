@@ -80,7 +80,6 @@ class epc_qr:
         qr.make()
         img = qr.make_image()
         img.save(file_name)
-        print("created image")
 
     # Properties of class
 
